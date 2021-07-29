@@ -55,7 +55,6 @@ def Process_XML_Files(XML_files):
             textblocklist = parser.Parse_Text_Blocks()
 
             parser.indent()             #pretty prints the xml
-            parser.Check_LineWidth()    # verifies lineWidth property is nonzero
 
             parser.Write_to_File(parse_file.write_filepath)
 
